@@ -14,5 +14,3 @@ for i in range(4):
 
 print(bob)
 turtle.mainloop()"""
-
-def square(t):
