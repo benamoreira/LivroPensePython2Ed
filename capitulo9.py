@@ -1,19 +1,20 @@
 fin = open('words.txt')
 
 def avoids(palavra2, proibidas):
-    c = 0
-    length = len(palavra2)
     for l in palavra2:
-        for c in proibidas:
-            if not c in palavra2:
-                return print(True)
-            else:
-                return print(c)
-            break
+        if l in proibidas:
+            return False
+    return True
 
+def uses_only(palavra2, disponiveis):
+    for l in palavra2:
+        if l not in disponiveis:
+            return False
+    return True
 
 palavra2 = str(input('Digite uma palavra: '))
 proibidas = input('Letras proibidas: ')
+disponiveis = input('Letras disponíveis: ')
 avoids(palavra2, proibidas)
 
 
