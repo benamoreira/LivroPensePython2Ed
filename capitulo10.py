@@ -1,5 +1,5 @@
 print('CAP 10 - Ex 10.5')
-lista_ex_5 = [1,4,3]
+lista_ex_5 = [1, 4, 3]
 def is_sorted(lista_ex_5):
     return lista_ex_5 == sorted(lista_ex_5)
 print(is_sorted(lista_ex_5))
@@ -36,8 +36,8 @@ def cumsum(lista_ex_2):
 print('Resultado: ', cumsum(lista_ex_2))
 
 print('\nCAP 10 - Ex 10.1')
-lista1 = [9,2]
-lista2 = [4,5,6]
+lista1 = [9, 2]
+lista2 = [4, 5, 6]
 lista3 = [3]
 lista_inteiros = lista1 + lista2 + lista3
 
